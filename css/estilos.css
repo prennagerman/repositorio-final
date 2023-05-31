@@ -1,0 +1,279 @@
+* {
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+
+/* estilo index*/
+
+body {background-image: url("./img/pexels-cottonbro-studio-3992850\ \(1\)\ \(1\)\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+        
+}
+
+
+
+.container-fluid {position: relative;
+    padding: 35px;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    gap: 250px;
+    background-image: url("./img/header\ 1\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+      
+}
+
+ #navbarNav li a {display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 10px;
+    margin-top: 200px;
+
+}
+
+#navbarNav li a:hover {
+    background-color: aqua;
+}
+
+#carouselExampleIndicators img {
+    border-style: inset;
+    padding: 50px;      
+    
+}
+
+.horarios {display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: groove;
+    width: 450px;
+    height: 350px;
+    margin: 200px auto;
+    text-shadow: 2px 2px 4px;
+    border-radius: 30%;
+    padding: 10px;
+    background-image: url("./img/barberia\ horarios\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.horarios .dias {margin-top: 40px;
+    row-gap: 20px;
+    color: black;
+    
+}
+
+.martes {margin-top: 20px;}
+.sabados {margin-top: 20px;}
+
+
+footer {
+    margin-top: 100px;
+    border-top: 5px solid black;
+    margin-bottom: 5px;   
+    
+}
+
+.dir {display: flex;
+justify-content: center;
+align-items: center;}
+
+p {color: aqua;}
+
+.red {display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logredes {display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+list-style: none;
+
+
+}
+
+.logredes .logre img {display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: auto;  
+
+}
+
+
+
+/* estilo servicios*/
+
+.servicios {display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+    width: 100%;
+    height: auto;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    color: blanchedalmond;
+}
+
+.fot {display: grid;
+grid-template-columns: 100% 100%;
+grid-template-rows: 1fr 1fr;
+gap: 10px;
+width: 300px;
+height: auto;
+}
+
+.fot .ite img{width: 100%;
+height: auto;
+border-style: double;}
+
+.fot .ite .pic11 {padding: 30px;}
+.fot .ite .pic44 {padding: 30px;}
+
+.tituloServicios {margin-top: 20px;}
+
+.cortes {margin-top: 20px;
+    color: burlywood;
+
+}
+
+.cyb {margin-top: 20px;
+    color: burlywood;
+
+}
+
+ul {list-style-type: none;
+    color: chartreuse;
+}
+
+.ser {background-image: url("./img/fondo.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 20px;
+border-radius: 10%;}
+
+
+/* estilo promos*/
+
+
+.card22 {display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: auto;
+justify-content: center;
+align-content: center;
+margin-left: 20%;
+margin-top: 100px;
+
+} 
+
+
+h3 {display: flex;
+    align-content: center;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+
+/* estilo quienes somos*/
+
+.bloque {display: flex;
+ justify-content: center;
+ align-items: center;
+margin-left: 300px;
+margin-right: 350px;
+margin-top: 250px;
+margin-bottom: 250px;
+}
+
+
+
+/* TRABAJO CON @MEDIA */
+
+/* Pag. Inicio */
+
+@media (max-width: 696px) {
+
+    .container-fluid {display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 50px;
+    
+    }
+
+    .container-fluid .logo {max-width: 100%;
+     max-height: 100%;
+     margin-top: 80px;
+     margin-left: 10%;
+     background-color: black;
+     border-radius: 100%;
+    } 
+
+    .horarios {margin: 0;
+    width: 400px;
+    margin-left: 5%;
+}
+    
+
+}
+
+/* Pag. Servicios */
+
+
+@media (max-width: 740px) {
+   .servicios{flex-direction: column;
+    gap: 10px;
+    margin-top: 80px;
+
+}
+
+.fot {width: 45%;
+    margin-right: 240px;   
+
+}
+}
+
+/* Pag. Promo */
+
+@media (max-width: 740px) {
+
+    .card22 {display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+}
+
+
+/* Pag. Quines somos */
+
+@media (max-width: 1002px) {
+    .bloque img {width: 100%;
+     }
+
+    .bloque {margin: 0;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 50px;
+    
+    }
+    .qui {margin-top: 50px;}
+}
