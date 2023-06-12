@@ -1,11 +1,12 @@
+/*
 * {
    margin: 0;
    padding: 0; 
    box-sizing: border-box;
 }
-
+*/
 /* estilo index*/
-
+/*
 body {background-image: url("./img/pexels-cottonbro-studio-3992850\ \(1\)\ \(1\)\ \(1\).jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,9 +14,9 @@ body {background-image: url("./img/pexels-cottonbro-studio-3992850\ \(1\)\ \(1\)
     background-attachment: fixed;
         
 }
+*/
 
-
-
+/*
 .container-fluid {position: relative;
     padding: 35px;
     width: 100%;
@@ -28,7 +29,8 @@ body {background-image: url("./img/pexels-cottonbro-studio-3992850\ \(1\)\ \(1\)
     background-position: center;
 
 }
-
+*/
+/*
 .logo {
     width: 300px;
     height: auto;
@@ -54,6 +56,7 @@ body {background-image: url("./img/pexels-cottonbro-studio-3992850\ \(1\)\ \(1\)
     padding: 50px;      
     
 }
+
 
 .horarios {display: flex;
     justify-content: center;
@@ -115,11 +118,11 @@ list-style: none;
     height: auto;  
 
 }
-
+*/
 
 
 /* estilo servicios*/
-
+/*
 .servicios {display: flex;
     justify-content: center;
     align-items: center;
@@ -168,11 +171,11 @@ background-size: cover;
 background-position: center;
 padding: 20px;
 border-radius: 10%;}
-
+*/
 
 /* estilo promos*/
 
-
+/*
 .card22 {display: grid;
 grid-template-columns: 50% 50%;
 grid-template-rows: auto;
@@ -189,10 +192,10 @@ h3 {display: flex;
     font-size: 15px;
     margin-top: 30px;
 }
-
+*/
 
 /* estilo quienes somos*/
-
+/*
 .bloque {display: flex;
  justify-content: center;
  align-items: center;
@@ -201,13 +204,16 @@ margin-right: 350px;
 margin-top: 250px;
 margin-bottom: 250px;
 }
+p {color: aqua;}
+
+*/
 
 
 
 /* TRABAJO CON @MEDIA */
 
 /* Pag. Inicio */
-
+/*
 @media (max-width: 696px) {
 
     .container-fluid {display: flex;
@@ -233,9 +239,9 @@ margin-bottom: 250px;
     
 
 }
-
+*/
 /* Pag. Servicios */
-
+/*
 
 @media (max-width: 740px) {
    .servicios{flex-direction: column;
@@ -244,14 +250,14 @@ margin-bottom: 250px;
 
 }
 
-.fot {width: 45%;
+.fot {width: 10%;
     margin-right: 240px;   
 
 }
 }
-
+*/
 /* Pag. Promo */
-
+/*
 @media (max-width: 740px) {
 
     .card22 {display: flex;
@@ -261,19 +267,21 @@ margin-bottom: 250px;
 }
 
 }
-
+*/
 
 /* Pag. Quines somos */
-
+/*
 @media (max-width: 1002px) {
     .bloque img {width: 100%;
+    
      }
 
     .bloque {margin: 0;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 60px;
     margin-right: 50px;
     
     }
     .qui {margin-top: 50px;}
 }
+*/

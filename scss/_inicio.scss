@@ -1,0 +1,99 @@
+.container-fluid {
+    position: relative;
+    padding: 35px;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    gap: 250px;
+    background-image: url("../img/header\ 1\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .logo {
+        width: 300px;
+        height: auto;
+          
+    }
+    #navbarNav li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        padding: 10px;
+        background-color: burlywood;
+        border-radius: 10px;
+        margin-top: 200px;
+      
+    }
+
+    #navbarNav li a:hover {
+        background-color: aqua;
+    }
+
+}
+
+main {
+    #carouselExampleIndicators img {
+        border-style: inset;
+        padding: 50px;
+        margin-top: 80px;
+    }
+}
+
+section {
+    div {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-style: groove;
+        width: 450px;
+        height: 350px;
+        margin: 200px auto;
+        text-shadow: 2px 2px 4px;
+        border-radius: 30%;
+        padding: 10px;
+        background-image: url("../img/fondo\ de\ horarios.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .horarios .dias {margin-top: 40px;
+        row-gap: 20px;
+        color: black;
+    }
+    .martes {margin-top: 20px;
+    }
+    .sabados {margin-top: 20px;
+    }
+
+}
+
+footer { 
+    margin-top: 100px;
+    border-top: 5px solid black;
+    margin-bottom: 5px;
+    .dir {display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p {color: aqua;
+    }
+    .red {display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    .logredes {display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            list-style: none;
+        }
+    .logredes .logre img {display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20px;
+                height: auto;  
+        }
+ 
+}
+

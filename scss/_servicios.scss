@@ -1,0 +1,54 @@
+.servicios {display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+    width: 100%;
+    height: auto;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    color: blanchedalmond;
+
+    .fot {display: grid;
+        grid-template-columns: 100% 100%;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        width: 300px;
+        height: auto;
+        }
+    .fot .ite img{width: 100%;
+            height: auto;
+            border-style: double;}
+            
+    .fot .ite .pic11 {padding: 30px;}
+    .fot .ite .pic44 {padding: 30px;}
+            
+    .tituloServicios {margin-top: 20px;}
+            
+    .cortes {margin-top: 20px;
+                color: burlywood;
+            }
+            
+    .cyb {margin-top: 20px;
+                color: burlywood;
+            }
+            
+    ul {list-style-type: none;
+                color: chartreuse;
+            }
+            
+    .ser {background-image: url("../img/fondoservicios.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+            border-radius: 10%;}
+
+
+
+
+}
+
+
+
+
+ 

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+
+ body {background-image: url("../img/pexels-cottonbro-studio-3992850\ \(1\)\ \(1\)\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+        
+}
+
+
+/* Estilo de Pag. Inicio */
+
+@import "inicio";
+
+/* Estilo pag. Servicios - Promos - quienes somos */
+
+@import "servicios";
+@import "promos";
+@import "quienesSomos";
+
+/* Estilos @media */
+
+@import "media";
