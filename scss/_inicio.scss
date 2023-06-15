@@ -14,15 +14,20 @@
         height: auto;
           
     }
+
+   .navbar-toggler {margin-top: 100px;}
+   .navbar-nav {margin-top: 20%;
+    }
+
+
     #navbarNav li a {
         display: flex;
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        padding: 10px;
+        padding: 5px;
         background-color: burlywood;
         border-radius: 10px;
-        margin-top: 200px;
       
     }
 
@@ -49,6 +54,7 @@ section {
         width: 450px;
         height: 350px;
         margin: 200px auto;
+        margin-top: 150px;
         text-shadow: 2px 2px 4px;
         border-radius: 30%;
         padding: 10px;
