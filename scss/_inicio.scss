@@ -5,10 +5,11 @@
     height: auto;
     border: 2px solid black;
     gap: 250px;
-    background-image: url("../img/header\ 1\ \(2\).jpg");
+    background: #0b0c07 url("../img/header\ 1\ \(2\).jpg") no-repeat center / cover;
+   /* background-image: url("../img/header\ 1\ \(2\).jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
     .logo {
         width: 300px;
         height: auto;
@@ -34,6 +35,11 @@
     #navbarNav li a:hover {
         background-color: aqua;
     }
+    .nav-item {
+        font-family: 'Lobster', cursive;
+      }
+
+    
 
 }
 
@@ -66,12 +72,18 @@ section {
     .horarios .dias {margin-top: 40px;
         row-gap: 20px;
         color: black;
+                
     }
     .martes {margin-top: 20px;
     }
     .sabados {margin-top: 20px;
     }
-
+    .dias {
+        font-family: 'Kanit', sans-serif;
+      }
+    .hor {
+        font-family: 'Bebas Neue', sans-serif;}
+    
 }
 
 footer { 
@@ -81,12 +93,15 @@ footer {
     .dir {display: flex;
         justify-content: center;
         align-items: center;
+        font-family: 'Lobster', cursive;
     }
     p {color: aqua;
+       font-family: 'Dancing Script', cursive;
     }
     .red {display: flex;
         justify-content: center;
         align-items: center;
+        font-family: 'Lobster', cursive;
         }
     .logredes {display: flex;
             justify-content: center;

@@ -11,7 +11,19 @@ main {
         align-content: center;
         font-size: 15px;
         margin-top: 30px;
+        font-family: 'Lobster', cursive;
     }
+
+    .bg-gradiet-red {
+        background: linear-gradient(to right, #db6363, #00ff00);
+    }
+
+    .bg-gradiet-blue {
+        background: linear-gradient(to left, rgb(37, 37, 228), rgb(40, 150, 40));
+    }
+    h2 {
+        font-family: 'Bebas Neue', sans-serif;
+      }
 
 }
 

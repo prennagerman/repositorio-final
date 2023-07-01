@@ -20,10 +20,11 @@ body {
   height: auto;
   border: 2px solid black;
   gap: 250px;
-  background-image: url("../img/header 1 (2).jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: #0b0c07 url("../img/header 1 (2).jpg") no-repeat center/cover;
+  /* background-image: url("../img/header\ 1\ \(2\).jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;*/
 }
 .container-fluid .logo {
   width: 300px;
@@ -46,6 +47,9 @@ body {
 }
 .container-fluid #navbarNav li a:hover {
   background-color: aqua;
+}
+.container-fluid .nav-item {
+  font-family: "Lobster", cursive;
 }
 
 main #carouselExampleIndicators img {
@@ -83,6 +87,12 @@ section .martes {
 section .sabados {
   margin-top: 20px;
 }
+section .dias {
+  font-family: "Kanit", sans-serif;
+}
+section .hor {
+  font-family: "Bebas Neue", sans-serif;
+}
 
 footer {
   margin-top: 100px;
@@ -93,14 +103,17 @@ footer .dir {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Lobster", cursive;
 }
 footer p {
   color: aqua;
+  font-family: "Dancing Script", cursive;
 }
 footer .red {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Lobster", cursive;
 }
 footer .logredes {
   display: flex;
@@ -150,6 +163,7 @@ footer .logredes .logre img {
 }
 .servicios .tituloServicios {
   margin-top: 20px;
+  font-family: "Bebas Neue", sans-serif;
 }
 .servicios .cortes {
   margin-top: 20px;
@@ -171,6 +185,9 @@ footer .logredes .logre img {
   padding: 20px;
   border-radius: 10%;
 }
+.servicios h3 {
+  font-family: "Lobster", cursive;
+}
 
 main .card22 {
   display: grid;
@@ -186,6 +203,16 @@ main h3 {
   align-content: center;
   font-size: 15px;
   margin-top: 30px;
+  font-family: "Lobster", cursive;
+}
+main .bg-gradiet-red {
+  background: linear-gradient(to right, #db6363, #00ff00);
+}
+main .bg-gradiet-blue {
+  background: linear-gradient(to left, rgb(37, 37, 228), rgb(40, 150, 40));
+}
+main h2 {
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .bloque {
@@ -198,7 +225,10 @@ main h3 {
   margin-bottom: 250px;
 }
 .bloque p {
-  color: aqua;
+  color: yellow;
+}
+.bloque .qui {
+  font-family: "Bebas Neue", sans-serif;
 }
 
 /* Estilos @media */
@@ -245,6 +275,7 @@ main h3 {
   main .card22 {
     grid-template-columns: 100%;
     gap: 50px;
+    margin-left: 18%;
   }
 }
 /* Pag. Quines somos */
